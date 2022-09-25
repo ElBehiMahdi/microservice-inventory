@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="inventory-discovery-server" />
+        <module name="inventory-gateway-server" />
+        <module name="inventory-product-order-service" />
+        <module name="inventory-rawmaterial-order-service" />
+        <module name="inventory-database-service" />
+        <module name="inventory-supplier-service" />
+        <module name="inventory-auth-service" />
+        <module name="inventory-stock-management-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="inventory-auth-service" target="1.8" />
+      <module name="inventory-database-service" target="1.8" />
+      <module name="inventory-discovery-server" target="1.8" />
+      <module name="inventory-gateway-server" target="1.8" />
+      <module name="inventory-product-order-service" target="1.8" />
+      <module name="inventory-rawmaterial-order-service" target="1.8" />
+      <module name="inventory-stock-management-service" target="1.8" />
+      <module name="inventory-supplier-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="inventory-auth-service" options="-parameters" />
+      <module name="inventory-database-service" options="-parameters" />
+      <module name="inventory-discovery-server" options="-parameters" />
+      <module name="inventory-gateway-server" options="-parameters" />
+      <module name="inventory-product-order-service" options="-parameters" />
+      <module name="inventory-rawmaterial-order-service" options="-parameters" />
+      <module name="inventory-stock-management-service" options="-parameters" />
+      <module name="inventory-supplier-service" options="-parameters" />
+    </option>
+  </component>
+</project>

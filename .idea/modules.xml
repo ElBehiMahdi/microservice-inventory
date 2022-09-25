@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/inventory-auth-service/inventory-auth-service.iml" filepath="$PROJECT_DIR$/inventory-auth-service/inventory-auth-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inventory-database-service/inventory-database-service.iml" filepath="$PROJECT_DIR$/inventory-database-service/inventory-database-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inventory-discovery-server/inventory-discovery-server.iml" filepath="$PROJECT_DIR$/inventory-discovery-server/inventory-discovery-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inventory-gateway-server/inventory-gateway-server.iml" filepath="$PROJECT_DIR$/inventory-gateway-server/inventory-gateway-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inventory-product-order-service/inventory-product-order-service.iml" filepath="$PROJECT_DIR$/inventory-product-order-service/inventory-product-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inventory-rawmaterial-order-service/inventory-rawmaterial-order-service.iml" filepath="$PROJECT_DIR$/inventory-rawmaterial-order-service/inventory-rawmaterial-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inventory-stock-management-service/inventory-stock-management-service.iml" filepath="$PROJECT_DIR$/inventory-stock-management-service/inventory-stock-management-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/inventory-supplier-service/inventory-supplier-service.iml" filepath="$PROJECT_DIR$/inventory-supplier-service/inventory-supplier-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservice-inventory.iml" filepath="$PROJECT_DIR$/.idea/microservice-inventory.iml" />
+    </modules>
+  </component>
+</project>
